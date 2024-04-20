@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.fragment.DetailedFragment"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/fragmentContainers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/postId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Post Id" />
+
+    <TextView
+        android:id="@+id/postTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:text="Post Title" />
+        <TextView
+            android:id="@+id/postlName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:text="Post Title" />
+        <TextView
+            android:id="@+id/postEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:text="Post Title" />
+
+</LinearLayout>
+
+</LinearLayout>
